@@ -153,6 +153,21 @@ nudgedImpacts1
 summary(nudgedImpacts1)
 # still 41 out of 62 NA
 
+nudgedImpacts2 <- extract(imp_map, pointsObject, method = "bilinear")
+nudgedImpacts2
+qplot(nudgedImpacts1, nudgedImpacts2) +
+  geom_abline(a = 0, b = 1)
+
+nudgedImpacts3 <- extract(imp_map, pointsObject, buffer = 3000, 
+                          fun = mean, na.rm = TRUE)
+nudgedImpacts3
+summary(nudgedImpacts3)
+qplot(nudgedImpacts1, nudgedImpacts3) +
+  geom_abline(a = 0, b = 1)
+
+
+
+
 # Plot the raster with the sites
 plot(imp_map)
 # plot(imp_map, colNA = 'black')
@@ -174,10 +189,14 @@ projection(pointsObject) <- "+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +t
 impactsOriginal <- extract(imp_map, pointsObject)
 impactsOriginal
 
+# These scores should be the same...but they are not
+qplot(sl3$impactScore, impactsOriginal) +
+  scale_x_continuous(limits = c(0, 50)) + 
+  geom_abline(a = 0, b = 1)
+  
+
 # Plot the raster with the sites
 plot(imp_map)
 # plot(imp_map, colNA = 'black')
 points(pointsObject, pch = 17, col = "black")
-# something is not right with the original coords, either!
-
 
