@@ -1,0 +1,644 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>sites_nudged</name>
+		<Placemark>
+			<name>Point 1</name>
+			<description><![CDATA[158]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-70.767746,42.9518995,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 2</name>
+			<description><![CDATA[157]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-70.7529831,42.9655931,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 3</name>
+			<description><![CDATA[159]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-70.9036052,42.4210409,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 5</name>
+			<description><![CDATA[162]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-70.9056222,42.4138649,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 6</name>
+			<description><![CDATA[163]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-70.9051609,42.4140708,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 7</name>
+			<description><![CDATA[52]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-76.3811588,37.220179300000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 8</name>
+			<description><![CDATA[122]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.1048374,26.019148700000002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 9</name>
+			<description><![CDATA[147]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.33359530000001,34.4553326,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 10</name>
+			<description><![CDATA[145]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.1428795,34.4662309,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 11</name>
+			<description><![CDATA[146]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.1191902,34.4625511,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 12</name>
+			<description><![CDATA[96]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.3537011,34.0646411,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 13</name>
+			<description><![CDATA[153]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.7571671,34.0591215,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 14</name>
+			<description><![CDATA[118]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.7544205,34.056935,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 15</name>
+			<description><![CDATA[50]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-159.5141029,22.2272959,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 16</name>
+			<description><![CDATA[143]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-125.23246769999999,48.8769092,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 17</name>
+			<description><![CDATA[140]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.2432556,48.7099941,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 18</name>
+			<description><![CDATA[6]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>147.3675156,-43.0583529,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 19</name>
+			<description><![CDATA[5]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>147.3778152,-43.0490707,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 20</name>
+			<description><![CDATA[81]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>150.0964165,-36.3702953,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 21</name>
+			<description><![CDATA[77]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>150.1769257,-36.0274447,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 22</name>
+			<description><![CDATA[80]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>150.61363220000004,-35.2091606,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 23</name>
+			<description><![CDATA[79]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>150.9106064,-34.5447419,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 24</name>
+			<description><![CDATA[35]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>146.0714722,-18.2808662,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 25</name>
+			<description><![CDATA[36]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>146.1253738,-18.3366025,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 26</name>
+			<description><![CDATA[180]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>109.3881226,12.6557479,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 27</name>
+			<description><![CDATA[181]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>109.38696380000002,12.6548686,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 28</name>
+			<description><![CDATA[178]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>109.3866205,12.6530262,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 29</name>
+			<description><![CDATA[179]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>109.38370230000001,12.6545336,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 30</name>
+			<description><![CDATA[174]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>109.3949032,12.6438977,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 31</name>
+			<description><![CDATA[175]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>109.3948603,12.6428927,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 32</name>
+			<description><![CDATA[177]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>109.3915129,12.6457402,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 33</name>
+			<description><![CDATA[176]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>109.39155580000002,12.6480014,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 34</name>
+			<description><![CDATA[124]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>39.6098328,-4.3238168,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 35</name>
+			<description><![CDATA[126]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>39.785614,-3.9930405999999996,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 36</name>
+			<description><![CDATA[125]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>39.8220062,-3.9231698,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 37</name>
+			<description><![CDATA[127]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>39.8789978,-3.8060205,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 38</name>
+			<description><![CDATA[191]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>9.9357605,37.2762384,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 39</name>
+			<description><![CDATA[31]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-8.8728333,40.1317723,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 40</name>
+			<description><![CDATA[30]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-8.8742065,40.1280317,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 41</name>
+			<description><![CDATA[29]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-8.8757515,40.1223875,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 42</name>
+			<description><![CDATA[128]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-3.3178711,56.0137372,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 43</name>
+			<description><![CDATA[20]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.4007568,55.1557279,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 44</name>
+			<description><![CDATA[21]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.4206696,55.1427794,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 45</name>
+			<description><![CDATA[55]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.3451385,55.0103076,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 46</name>
+			<description><![CDATA[58]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.3547516000000002,55.0016443,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 47</name>
+			<description><![CDATA[54]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.3643646,55.0047948,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 48</name>
+			<description><![CDATA[56]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.3746643,55.0051886,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 49</name>
+			<description><![CDATA[57]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.3794708,55.0028258,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 50</name>
+			<description><![CDATA[195]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.0663605,54.6785952,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 51</name>
+			<description><![CDATA[197]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.059494,54.7127222,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 52</name>
+			<description><![CDATA[196]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.0340881,54.7448388,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 53</name>
+			<description><![CDATA[194]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-0.9963226,54.77098910000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 54</name>
+			<description><![CDATA[75]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>33.9807129,66.2356084,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 55</name>
+			<description><![CDATA[164]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>146.8525314,-19.2673967,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 56</name>
+			<description><![CDATA[165]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>146.8564796,-19.2601044,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 57</name>
+			<description><![CDATA[74]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>33.9815712,66.2357467,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 58</name>
+			<description><![CDATA[121]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.1050091,26.017567500000002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 59</name>
+			<description><![CDATA[139]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.2485771,48.7116932,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 60</name>
+			<description><![CDATA[141]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-125.2353859,48.876344700000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 61</name>
+			<description><![CDATA[27]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.23731989999999,37.6207581,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-503-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-503-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
