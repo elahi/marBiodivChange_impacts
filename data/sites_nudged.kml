@@ -602,6 +602,26 @@
 				<coordinates>-122.23731989999999,37.6207581,0.0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>Point 61</name>
+			<description><![CDATA[167]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>114.1331863,22.3062496,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 62</name>
+			<description><![CDATA[169]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>114.2560959,22.2849666,0.0</coordinates>
+			</Point>
+		</Placemark>
 		<Style id='icon-503-DB4436-normal'>
 			<IconStyle>
 				<color>ff3644DB</color>
