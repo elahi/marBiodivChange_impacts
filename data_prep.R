@@ -10,8 +10,10 @@ rm(list=ls(all=TRUE))
 library(dplyr)
 library(rgdal)
 library(ggplot2)
+library(raster)
 
-#library(maptools)
+# set working directory
+setwd("~elahi/github/marBiodivChange_impacts/")
 
 # Load data table of impact scores from Ginger Allington
 siteList <- read.csv("./data/elahi_extractedVals.csv")
@@ -38,7 +40,70 @@ head(sl3)
 
 # write.csv(sl3, './data/elahi_cb_sites.csv')
 
+###############################
+###############################
+# First order of business, as proof of concept
+# Can I replicate Ginger's extracted scores?
+
+head(sl3)
+with(sl3, table(impact)) 
+# 62 sites did not get an impact score, because
+# the points were on land or data were NA
+# remove these 62
+
+sl4 <- sl3 %>% filter(impact == "yes")
+summary(sl4)
+
+# rename file
+pointsObject <- sl4
+head(pointsObject)
+
+# set spatial coordinates to create a spatial object 
+# c(x, y) i.e.,  c(long, lat)
+coordinates(pointsObject) <- c("Long", "Lat") 
+pointsObject
+head(pointsObject)
+str(pointsObject)
+
+# set projection reference
+projection(pointsObject) <- 
+  "+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"
+
+# Use the same map that Ginger used. 
+imp_map <- raster("../bigFiles/nceas_wgs.tif")
+plot(imp_map)
+
+# This is the map that Jillian used
+imp_map2 <- raster("../bigFiles/model_class_wgs84_lzw.tif")
+plot(imp_map2)
+
+# Use the points to extract impact scores from the map
+impactsRE <- extract(imp_map, pointsObject)
+impactsRE
+summary(impactsRE) 
+
+# These scores should be the same...but they are not
+qplot(sl4$impactScore, impactsRE) +
+  geom_abline(a = 0, b = 1)
+
+qplot(impactsRE)
+qplot(sl4$impactScore)
+
+# Plot the raster with the sites
+plot(imp_map)
+# plot(imp_map, colNA = 'black')
+points(pointsObject, pch = 17, col = "black")
+
+pdf("./figs/robinsPlot.pdf")
+plot(imp_map)
+points(pointsObject, pch = 17, col = "black")
+dev.off()
+
 ###################################
+
+
+
+
 
 # Load kml file with nudged sites (only 60, should be 62)
 nudged <- readOGR(dsn = "./data/sites_nudged.kml", 
@@ -68,7 +133,6 @@ sl4 <- sl3 %>% filter(impact == "no") %>%
 
 write.csv(sl4, './output/sl4.csv')
 
-# studyname Shin was the culprit
 # Now I can use sl4 nudged lat longs to get new impact scores
 
 #######################################################################
@@ -140,7 +204,8 @@ coordinates(pointsObject) <- c("nudgedLong", "nudgedLat")
 pointsObject
 
 # set projection reference
-projection(pointsObject) <- "+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"
+projection(pointsObject) <- "+proj=longlat +datum=WGS84 +no_defs 
++ellps=WGS84 +towgs84=0,0,0"
 
 # Load relevant raster
 imp_map <- raster("../bigFiles/nceas_wgs.tif")
@@ -166,37 +231,11 @@ qplot(nudgedImpacts1, nudgedImpacts3) +
   geom_abline(a = 0, b = 1)
 
 
-
-
 # Plot the raster with the sites
 plot(imp_map)
 # plot(imp_map, colNA = 'black')
 points(pointsObject, pch = 17, col = "black")
 # something is not right with the google kml coords
 
-###############################
-# Try the original coords
-head(sl3)
-# rename file
-pointsObject <- sl3
-head(pointsObject)
-# set coordinates - c(x, y) i.e.,  c(long, lat)
-coordinates(pointsObject) <- c("Long", "Lat") 
-pointsObject
-# set projection reference
-projection(pointsObject) <- "+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"
 
-impactsOriginal <- extract(imp_map, pointsObject)
-impactsOriginal
-
-# These scores should be the same...but they are not
-qplot(sl3$impactScore, impactsOriginal) +
-  scale_x_continuous(limits = c(0, 50)) + 
-  geom_abline(a = 0, b = 1)
-  
-
-# Plot the raster with the sites
-plot(imp_map)
-# plot(imp_map, colNA = 'black')
-points(pointsObject, pch = 17, col = "black")
 
