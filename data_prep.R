@@ -71,11 +71,6 @@ projection(pointsObject) <-
 
 # Use the same map that Ginger used. 
 imp_map <- raster("../bigFiles/nceas_wgs.tif")
-plot(imp_map)
-
-# This is the map that Jillian used
-imp_map2 <- raster("../bigFiles/model_class_wgs84_lzw.tif")
-plot(imp_map2)
 
 # Use the points to extract impact scores from the map
 impactsRE <- extract(imp_map, pointsObject)
@@ -99,11 +94,17 @@ plot(imp_map)
 points(pointsObject, pch = 17, col = "black")
 dev.off()
 
+
+
+
+
+
+
+
+
 ###################################
-
-
-
-
+# Try nudging sites
+###################################
 
 # Load kml file with nudged sites (only 60, should be 62)
 nudged <- readOGR(dsn = "./data/sites_nudged.kml", 
@@ -229,7 +230,6 @@ nudgedImpacts3
 summary(nudgedImpacts3)
 qplot(nudgedImpacts1, nudgedImpacts3) +
   geom_abline(a = 0, b = 1)
-
 
 # Plot the raster with the sites
 plot(imp_map)
