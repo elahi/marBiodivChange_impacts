@@ -11,6 +11,7 @@ library(dplyr)
 library(rgdal)
 library(ggplot2)
 library(raster)
+library(maptools)
 
 # set working directory
 setwd("~elahi/github/marBiodivChange_impacts/")
@@ -93,6 +94,7 @@ pdf("./figs/robinsPlot.pdf")
 plot(imp_map)
 points(pointsObject, pch = 17, col = "black")
 dev.off()
+
 
 
 
